@@ -1,16 +1,279 @@
 <html>
-
 <head>
-<title>Banda</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63e4e23fad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <title>Nome do Site</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        header {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-size: larger;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position:fixed;
+            background-color:aliceblue;
+            width: 100%;
+        }
 
-</head> 
+        header li {
+            float: left;
+            font-size: large;
+            font-weight:normal;
+        }
 
+        header li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color:olivedrab;
+        }
+
+        body {
+            color:black; display: block; margin: 0px;
+            font: 14px/1.4 'Raleway','Verdana', sans-serif;                  
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Raleway','Verdana', sans-serif;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-size: 100px;
+        }
+        
+        h2 {
+            font-family: 'Raleway','Verdana', sans-serif;
+            font-size: 2em;
+            margin: 10px;
+        }
+       
+        h3 {
+            font-family: 'Raleway','Verdana', sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        p {
+            margin: 10px;
+        }
+
+        div img {
+            max-width: 80vw;
+
+        }       
+        .home {
+            text-align: center;
+            color:rgb(212, 212, 212);
+            padding: 2vw;
+            margin: 0px auto;
+            background-color:rgb(38, 38, 65);
+            clear: both;
+        }
+
+        .lojaonline {7
+            margin: 0px auto;
+            text-align: center;
+            padding: 2vw;
+            padding-bottom: 50px;
+
+        }
+        .sobrenos {
+            text-align: center;
+            padding: 2vw;
+            background-color: #9db978;
+            margin: 0px auto;
+        }
+
+        .caixona {
+            text-align: center;
+            padding: 0px;
+            margin: 0px auto;
+            background-color: #a8dbec;
+            vertical-align: middle;
+        }
+
+        .caixinha {
+            text-align: center;
+            padding: 2vw 0;
+            margin: 0px auto;
+            background-color: #a8dbec;
+            vertical-align: middle;
+            width: 50%;
+        }
+
+        .blog {
+            text-align: center;
+            padding: 2vw;
+            margin: 0px;
+            background-color:#6dab7f;
+        }
+
+        .footer {
+            margin: 0px;
+            padding: 2vw;
+            background-color: #59665c;
+        }
+
+        .trescolunas {
+            float: left;
+            width: 28vw;
+            text-align: center;
+            margin: 1vw
+        }
+
+        .esquerda{
+            float: left;
+            text-align: center;
+            margin: auto;
+        }
+
+        .direita{
+            float: right;
+            text-align: center;
+            margin: auto;
+        }
+
+
+        .clearfix:after {
+            content: ".";
+            visibility: hidden;
+            clear: both;
+            display: block;
+            height: 0;
+        }
+
+        a.button:link {
+            background-color: #5c9d4f;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px;
+            font-weight: bold;
+            border-radius: 4px;        
+}
+        a.button:hover{
+            background-color: #4b8e3a;
+        }
+    </style>
+
+</head>
 <body>
+<header>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#lojaonline">Loja Online</a>
+            </li>
+            <li>
+                <a href="#sobrenos">Sobre nós</a>
+            </li>
+            <li>
+                <a href="#midia">Mídia</a>
+            </li>
+            <li>
+                <a href="#blog">Blog</a>
+            </li>
+                 </ul>
+        <img width="100%" src="banner.jpg" alt="banner01">
+    </header>
+
+    <div class="home"><a id="home">
+        <h2>Apresentação</h2></a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+        <h3>Texto em destaque. Texto em destaque.</h3>
+        <i class="fab fa-pagelines fa-3x"></i>
+
+    </div>
+    <div class="lojaonline"><a id="lojaonline">
+        <h2>Loja Online</h2></a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
+            <div class="trescolunas">
+                <img width="100%" src="jam.jpg" alt="geleia">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit sit amet consectetur adipisicing elit.</p>   
+            </div>
+            <div class="trescolunas">
+                <img width="100%" src="jam.jpg" alt="geleia">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="trescolunas">
+            <img width="100%" src="jam.jpg" alt="geleia">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>        
+        <a class="button clearfix" href="https://www.google.com/" target="_blank">Compre já!</a>
+</div>
+        <div class="sobrenos"><a id="sobrenos">
+        <h2>Sobre nós</h2></a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+        <h3>Sobre</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+    </div>
+
+    <div class="caixona clearfix"><a id="midia">
+        <img width="50%" class="esquerda" src="farm01.jpg" alt="farm">
+        <div class="caixinha direita">
+        <h2>Mídia</h2></a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+        <h3>Sobre</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+    </div>
+    </div>
+
+    <div class="caixona clearfix" style="background-color: coral"><a id="blog">
+        <img width="50%" class="direita" src="farm01.jpg" alt="farm">
+        <div class="caixinha esquerda" style="background-color: coral;">
+            <h2>Blog</h2></a>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam perspiciatis accusantium odit hic. Fuga vel, quasi recusandae numquam deleniti quas minima, excepturi quisquam doloribus eum voluptatem quidem vitae dignissimos!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+            <h3>Sobre</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+        </div></div>
+
+
+    <div class="footer"><footer> 
+<ul>
+    <li>
+        <a href="#home">Home</a>
+    </li>
+    <li>
+        <a href="#lojaonline">Loja online</a>
+    </li>
+    <li>
+        <a href="#sobrenos">Sobre nós</a>
+    </li>
+    <li>
+        <a href="#midia">Mídia</a>
+    </li>
+    <li>
+        <a href="#blog">Blog</a>
+    </li>
+</ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, quaerat maxime ipsa velit quis dignissimos dolorum dolor excepturi aspernatur? Odio praesentium impedit aliquid vitae, voluptates quibusdam unde cupiditate quo odit.</p>
+    </footer>
+    </div>
 
 </body>
-
-<footer>
-
-</footer>
-
 </html>
